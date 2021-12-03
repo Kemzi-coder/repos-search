@@ -1,0 +1,30 @@
+.back-btn {
+	background-color: #272343;
+	color: #fff;
+	border: none;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.card {
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	background: #E3F6F5;
+
+	.name {
+		font-size: 1.5em;
+		font-weight: 700;
+		margin-left: 10px;
+	}
+
+	.stars {
+		margin-left: auto;
+	}
+}
+
+
+.contributor {
+	margin-bottom: 10px;
+	font-size: 18px;
+}

@@ -1,3 +1,13 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
 body {
-	background-color: green;
+	color: #272343;
+}
+
+p {
+	margin: 0;
 }

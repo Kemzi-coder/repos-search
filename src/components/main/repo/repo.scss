@@ -1,0 +1,35 @@
+.repo {
+	border: 2px solid #BAE8E8;
+	background-color: #E3F6F5;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	&-header {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 20px;
+
+		&-name {
+			font-size: 1.2em;
+			font-weight: 500;
+			
+			a {
+				display: inline-block;
+				color: #272343;
+				text-decoration: none;
+				border-bottom: 1px solid transparent;
+				transition: border-bottom-color .3s ease;
+				
+				&:hover {
+					border-bottom-color: #272343;
+				}
+			}
+		}
+	}
+}
